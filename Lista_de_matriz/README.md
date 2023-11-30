@@ -33,6 +33,8 @@ Sem acento:  amanha tu ira
 node .\ex3_matrixTransposta.js
 ```
 Resultado:
+
+```
 9  6  8  8
 
 8  4  3  9
@@ -56,7 +58,7 @@ Transpose:
 8  3  7  8  6  9
 
 8  9  4  1  9  4
-
+```
 
 
 #### Exercicio 4:
