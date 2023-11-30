@@ -4,9 +4,9 @@ O uso do Node é nescessario para rodar os arquivos.
 Baixe o Node.js em: <https://nodejs.org/>
 
 #### Exercicio 1:
-´´´
+```
 node .\ex1_charCodeParaString.js
-´´´
+```
 Resultado:  
 A  B  C  D  E  F  G  H
 
@@ -19,9 +19,9 @@ Y  Z  [  \  ]  ^  _  `
 
 
 #### Exercicio 2:
-´´´
+```
 node .\ex2_textoSemAcento.js amanhã tu irá
-´´´
+```
 Resultado:
 Com acento:  amanhã tu irá
 Sem acento:  amanha tu ira
@@ -29,9 +29,9 @@ Sem acento:  amanha tu ira
 
 
 #### Exercicio 3:
-´´´
+```
 node .\ex3_matrixTransposta.js
-´´´
+```
 Resultado:
 9  6  8  8
 
@@ -63,9 +63,9 @@ Transpose:
 
 .\ex4_inteiroParaBinario.js (NUMERO DECIMAL)
 
-´´´
+```
 node .\ex4_inteiroParaBinario.js 100
-´´´
+```
 Resultado:  
 Decimal to Binary: 1100100
 Binary to Decimal: 100
@@ -76,19 +76,20 @@ Binary to Decimal: 100
 
 .\ex5_cilindroVolume.js (ALTURA) (RAIO)
 
-´´´
+```
 node .\ex5_cilindroVolume.js 10 1
-´´´
+```
 Resultado:
 31.41592653589793 (VOLUME)
 
 
 
 #### Exercicio 6:
-´´´
+```
 node .\ex6_produtos.js
-´´´
+```
 Resultado:
+```
 ┌─────────┬────────────┐
 │ (index) │   Values   │
 ├─────────┼────────────┤
@@ -105,15 +106,16 @@ Resultado:
 │  preco  │    1.2    │
 │   cor   │ 'Amarelo' │
 └─────────┴───────────┘
+```
 Media dos pesos:  0.65
 Soma de precos:  1.7999999999999998
 
 
 
 #### Exercicio 7:
-´´´
+```
 node .\ex7_matrixEmL.js
-´´´
+```
 Resultado:  
 ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
@@ -140,9 +142,9 @@ X  X  X  X  X  X  X  X  X  X  X
 
 
 #### Exercicio 8:
-´´´
+```
 node .\ex8_matrixEmX.js
-´´´
+```
 Resultado:  
 X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
@@ -169,26 +171,27 @@ X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
 
 #### Exercicio 9:
-´´´
+```
 node .\ex9_situacaoAlunos.js
-´´´
-Resultado:  
-┌──────────┬─────────────┐ .
-│ (index)  │   Values    │ .
-├──────────┼─────────────┤ .
-│   nome   │  'Alberto'  │ .
-│  faltas  │     40      │ .
-│   nota   │     10      │ .
-│ situacao │ 'Reprovado' │ .
-└──────────┴─────────────┘ .
-
+```
+Resultado:
+```
+┌──────────┬─────────────┐ 
+│ (index)  │   Values    │ 
+├──────────┼─────────────┤ 
+│   nome   │  'Alberto'  │ 
+│  faltas  │     40      │ 
+│   nota   │     10      │ 
+│ situacao │ 'Reprovado' │ 
+└──────────┴─────────────┘ 
+```
 
 
 #### Exercicio 10:
 
 Para testar o exercicio 10 é preciso adicionar numeros, e ele retornará os numeros organizados.
 
-´´´
+```
 node .\ex10_sort.js 1 19 1 3
-´´´
+```
 Resultado:  [1, 1, 3, 19]
