@@ -173,14 +173,14 @@ X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 node .\ex9_situacaoAlunos.js
 ´´´
 Resultado:  
-┌──────────┬─────────────┐
-│ (index)  │   Values    │
-├──────────┼─────────────┤
-│   nome   │  'Alberto'  │
-│  faltas  │     40      │
-│   nota   │     10      │
-│ situacao │ 'Reprovado' │
-└──────────┴─────────────┘
+┌──────────┬─────────────┐ .
+│ (index)  │   Values    │ .
+├──────────┼─────────────┤ .
+│   nome   │  'Alberto'  │ .
+│  faltas  │     40      │ .
+│   nota   │     10      │ .
+│ situacao │ 'Reprovado' │ .
+└──────────┴─────────────┘ .
 
 
 
