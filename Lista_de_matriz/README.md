@@ -3,11 +3,12 @@
 O uso do Node é nescessario para rodar os arquivos. 
 Baixe o Node.js em: <https://nodejs.org/>
 
-#### Exercicio 1:
+## Exercicio 1:
 ```
 node .\ex1_charCodeParaString.js
 ```
-Resultado:  
+#### Resultado:  
+```
 A  B  C  D  E  F  G  H
 
 I  J  K  L  M  N  O  P
@@ -15,25 +16,25 @@ I  J  K  L  M  N  O  P
 Q  R  S  T  U  V  W  X
 
 Y  Z  [  \  ]  ^  _  `
+```
 
 
-
-#### Exercicio 2:
+## Exercicio 2:
 ```
 node .\ex2_textoSemAcento.js amanhã tu irá
 ```
-Resultado:
+#### Resultado:
+```
 Com acento:  amanhã tu irá
 Sem acento:  amanha tu ira
+```
 
 
-
-#### Exercicio 3:
+## Exercicio 3:
 ```
 node .\ex3_matrixTransposta.js
 ```
-Resultado:
-
+#### Resultado:
 ```
 9  6  8  8
 
@@ -61,36 +62,38 @@ Transpose:
 ```
 
 
-#### Exercicio 4:
+## Exercicio 4:
 
 .\ex4_inteiroParaBinario.js (NUMERO DECIMAL)
 
 ```
 node .\ex4_inteiroParaBinario.js 100
 ```
-Resultado:  
+Resultado: 
+```
 Decimal to Binary: 1100100
 Binary to Decimal: 100
+```
 
 
-
-#### Exercicio 5:
+## Exercicio 5:
 
 .\ex5_cilindroVolume.js (ALTURA) (RAIO)
 
 ```
 node .\ex5_cilindroVolume.js 10 1
 ```
-Resultado:
+#### Resultado:
+```
 31.41592653589793 (VOLUME)
+```
 
 
-
-#### Exercicio 6:
+## Exercicio 6:
 ```
 node .\ex6_produtos.js
 ```
-Resultado:
+#### Resultado:
 ```
 ┌─────────┬────────────┐
 │ (index) │   Values   │
@@ -108,17 +111,19 @@ Resultado:
 │  preco  │    1.2    │
 │   cor   │ 'Amarelo' │
 └─────────┴───────────┘
-```
+
 Media dos pesos:  0.65
 Soma de precos:  1.7999999999999998
+```
 
 
 
-#### Exercicio 7:
+## Exercicio 7:
 ```
 node .\ex7_matrixEmL.js
 ```
-Resultado:  
+#### Resultado:  
+```
 ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
 ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
@@ -140,14 +145,15 @@ Resultado:
 ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
 X  X  X  X  X  X  X  X  X  X  X
+```
 
 
-
-#### Exercicio 8:
+## Exercicio 8:
 ```
 node .\ex8_matrixEmX.js
 ```
-Resultado:  
+#### Resultado: 
+```
 X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 
 ·  X  ·  ·  ·  ·  ·  ·  ·  X  ·
@@ -169,14 +175,14 @@ X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
 ·  X  ·  ·  ·  ·  ·  ·  ·  X  ·
 
 X  ·  ·  ·  ·  ·  ·  ·  ·  ·  X
+```
 
 
-
-#### Exercicio 9:
+## Exercicio 9:
 ```
 node .\ex9_situacaoAlunos.js
 ```
-Resultado:
+#### Resultado:
 ```
 ┌──────────┬─────────────┐ 
 │ (index)  │   Values    │ 
@@ -189,11 +195,14 @@ Resultado:
 ```
 
 
-#### Exercicio 10:
+## Exercicio 10:
 
-Para testar o exercicio 10 é preciso adicionar numeros, e ele retornará os numeros organizados.
+node .\ex10_sort.js (NUMERO 1) (NUMERO 2) (NUMERO 3) (NUMERO 4) ...
 
 ```
 node .\ex10_sort.js 1 19 1 3
 ```
-Resultado:  [1, 1, 3, 19]
+#### Resultado:
+```
+[1, 1, 3, 19]
+```
